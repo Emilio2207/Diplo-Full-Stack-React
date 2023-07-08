@@ -1,0 +1,35 @@
+h1 {
+    color: rgba(255, 50, 50, 0.85); /*color de la fuente*/
+    background-color: rgba(208, 204, 204, 0.60); /*fondo*/
+    text-align: center; /*alineacion*/
+    text-transform: uppercase; /*mayusculas*/
+}
+
+h4 {
+    color: rgba(91, 136, 51, 0.89);
+    font-size: 30px; /*tamaño de la fuente*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgba(67, 66, 64, 0.89);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 15px; /*alto de linea*/
+}
+
+#caja {
+    background-color: rgba(201, 142, 53, 0.89);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.destacados {
+    font-size: 25px;
+    color: rgba(201, 142, 53, 0.89);
+}
