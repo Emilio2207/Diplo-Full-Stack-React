@@ -1,0 +1,51 @@
+h1 {
+    color: rgba(255, 50, 50, 0.85); /*color de la fuente*/
+    background-color: rgba(208, 204, 204, 0.60); /*fondo*/
+    text-align: center; /*alineacion*/
+    text-transform: uppercase; /*mayusculas*/
+}
+
+h4 {
+    color: rgba(91, 136, 51, 0.89);
+    font-size: 30px; /*tamaño de la fuente*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: rgba(67, 66, 64, 0.89);
+    font-weight: bold;
+    font-style: italic;
+    line-height: 15px; /*alto de linea*/
+}
+
+#caja {
+    background: rgb(6,150,227);
+    background: linear-gradient(45deg, rgba(6,150,227,1) 53%, rgba(105,
+    205,143,1) 89%, rgba(0,212,255,1) 100%);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 20px 0;
+    margin: 20px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+.destacados {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(201, 142, 53, 0.89);
+}
+
+.tamanio{
+    font-size: 50px;
+    color: darkmagenta;
+}
+
+.column{
+    column-count: 2;
+    column-gap: 100px;
+    column-rule: 3px solid black;
+}
