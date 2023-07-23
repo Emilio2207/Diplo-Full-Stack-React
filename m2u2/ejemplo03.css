@@ -5,6 +5,7 @@
     height: 300px;
     display: inline-flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .item1{
