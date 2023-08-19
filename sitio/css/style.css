@@ -247,11 +247,54 @@ section{
     color: var(--black);
 }
 
-/* end */
+/* fin */
 
-/* contact */
+/* novedades */
 
-.contact .row{
+.novedades .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.novedades .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    background-color: var(--main-color);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.novedades .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.novedades .box-container .box h4{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.novedades .box-container .box p{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+
+.novedades .box-container .box:hover{
+    background-color: var(--primary-color);
+}
+
+.novedades .box-container .box:hover > *{
+    color: var(--black);
+}
+
+/* fin */
+
+/* contacto */
+
+.contacto .row{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -263,17 +306,17 @@ section{
     gap: 2rem;            
 }
 
-.contact .row .image{
+.contacto .row .image{
     -webkit-box-flex: 1;
         -ms-flex: 1 1 40rem;
             flex: 1 1 40rem;
 }
 
-.contact .row .image img{
+.contacto .row .image img{
     width: 100%;
 }
 
-.contact .row form{
+.contacto .row form{
     -webkit-box-flex: 1;
         -ms-flex: 1 1 40rem;
             flex: 1 1 40rem;
@@ -281,7 +324,7 @@ section{
     padding: 2rem;        
 }
 
-.contact .row form h3{
+.contacto .row form h3{
     font-size: 2.5rem;
     text-align: center;
     color: var(--main-color);
@@ -289,7 +332,7 @@ section{
     text-transform: uppercase;
 }
 
-.contact .row form .inputBox{
+.contacto .row form .inputBox{
     display: flex;
     align-items: center;
     margin-top: 2rem;
@@ -298,13 +341,22 @@ section{
     border: var(--border);
 }
 
-.contact .row form .inputBox span{
+.contacto .row form .inputBox span{
     color: var(--primary-color);
     font-size: 2rem;
     padding-left: 2rem;
 }
 
-.contact .row form .inputBox input{
+.contacto .row form .inputBox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+}
+
+.contacto .row form .inputBox textarea{
     width: 100%;
     padding: 2rem;
     font-size: 1.7rem;
