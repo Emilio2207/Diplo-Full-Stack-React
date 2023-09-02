@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#contadorCaracteres {
+    color: #555;
+}
